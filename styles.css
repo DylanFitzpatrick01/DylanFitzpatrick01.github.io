@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+}
+
+span{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title{
+    color: white;
+    background-color: #4ca4d4;
+    border-bottom: 1px solid #4ca4d4;
+    top: -24px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+}
+
+.headshot{
+    width: 250px;
+    border-radius: 15px;
+}
+
+.about{
+    position: relative;
+}
