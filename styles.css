@@ -1,41 +1,149 @@
+*{
+}
+
+head{
+}
+
 body{
     margin: 0 auto;
+    background-image: linear-gradient(to bottom right, lightgray, white);
 }
 
 h1{
     font-family: 'Varela Round', sans-serif;
     font-size: 35px;
+    padding-left: 5px;
 }
 
-span{
+h3{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 15px;
+}
+
+h5{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 15px;
+    color: gray;
+}
+
+p{
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+a{
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    filter: brightness(50%);
+}
+
+div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 img{
     max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
 }
 
-.title{
-    color: white;
-    background-color: #4ca4d4;
-    border-bottom: 1px solid #4ca4d4;
-    top: -24px;
-    position: relative;
-    width: 100%;
-    z-index: 1;
+.title-name{
+    color: black;
+    margin-top: -10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-degree{
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -20px;
+}
+
+.github-logo{
+    display: inline-flex;
+    width: 52px;
+    margin: -90px 1450px;
+    filter: brightness(0%);
+    position: absolute;
+}
+
+.github-logo:hover{
+    filter: brightness(100%);
+}
+
+.linkedin{
+    display: inline-flex;
+    width:55px;
+    margin: -92px 1380px;
+    filter: brightness(0%);
+    position: absolute;
+}
+
+.linkedin:hover{
+    filter: brightness(25%);
 }
 
 .about-me{
-    display: flex;
     align-items: center;
 }
 
 .headshot{
-    width: 250px;
-    border-radius: 15px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.description{
+ text-align: center;
 }
 
 .about{
     position: relative;
+    margin-top: 80px;
+}
+
+.secondary-school{
+    align-items: center;
+    display: flex;
+}
+
+.education{
+    position: relative;
+}
+
+.cbs{
+    width: 225px;
+    padding-left: 10px;
+}
+
+.about-secondary{
+    position: relative;
+    padding-left: 20px;
+}
+
+.college{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.trinity{
+}
+
+.about-college{
+    position: relative;
+    padding-left: 20px;
+}
+
+.shutterstock-logo{
+    width:300px;
+    padding-left: 15px;
 }
