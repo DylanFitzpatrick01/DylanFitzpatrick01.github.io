@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-image: linear-gradient(to bottom right,lightgray, white, white, lightgray);
+    background-image: linear-gradient(to bottom right, lightgray, white, white, lightgray);
 }
 
 h1{
@@ -68,8 +68,9 @@ img{
 }
 
 .github-logo{
+    right: 10px;
+    top: 10px;
     width: 52px;
-    margin: -90px 1450px;
     filter: brightness(0%);
     position: absolute;
 }
@@ -79,8 +80,9 @@ img{
 }
 
 .linkedin{
+    right: 65px;
+    top: 10px;
     width:55px;
-    margin: -92px 1380px;
     filter: brightness(0%);
     position: absolute;
 }
@@ -91,8 +93,9 @@ img{
 }
 
 .email{
+    right: 150px;
+    top: 10px;
     position: absolute;
-    margin: -90px 1125px;
 }
 
 .about-me{
