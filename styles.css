@@ -1,5 +1,8 @@
+html{
+}
+
 body{
-    margin: 0 auto;
+    margin: auto;
     background-image: linear-gradient(to bottom right,lightgray, white, white, lightgray);
 }
 
@@ -56,35 +59,38 @@ img{
 }
 
 .header{
-    position: relative;
-    display: flex;
+    overflow: auto;
 }
 
 .headshot{
-    position: relative;
+    width: 12%;
+    display: inline;
     float: left;
+    position: relative;
     top: 10px;
-    border-radius: 0px;
-    white-space: nowrap;
     border-radius: 20px;
 }
 
+.info{
+    display: inline;
+    float: left;
+}
+
 .title-name{
-    position: relative;
     color: black;
     font-family: 'Oswald', sans-serif;
-    top: 25px;
-    left: -325px;
     white-space: nowrap;
+    max-width: 100%;
 }
 
 .title-degree{
     position: relative;
+    display: flex;
+    top:-30px;
     color: #ff00c0;
     font-family: 'Oswald', sans-serif;
-    left: -579px;
-    top: 75px;
     white-space: nowrap;
+    max-width: 100%;
 }
 
 .github-logo{
@@ -140,7 +146,7 @@ img{
 
 .about-me{
     position: relative;
-    top: 15px;;
+    display: flex;
 }
 
 .IRLCA{
@@ -150,14 +156,6 @@ img{
 
 .IRLCA:hover{
     color: #ff00c0;
-}
-
-.headshot{
-    width: 40%;
-}
-
-.description{
-    text-align: justify;
 }
 
 .about{
@@ -171,7 +169,6 @@ img{
 }
 
 .education{
-    position: relative;
 }
 
 .cbs{
