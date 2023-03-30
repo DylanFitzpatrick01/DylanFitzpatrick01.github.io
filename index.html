@@ -10,27 +10,35 @@
 </head>
 <body>
 <header>
-    <h1 class="title-name">Dylan Fitzpatrick</h1>
-    <h1 class="title-degree">B.A. Computer Science, Trinity College Dublin</h1>
-    <a href="https://github.com/DylanFitzpatrick01" target="_blank">
-        <img src="github.png" class="github-logo" alt="GitHub logo">
-    </a>
-    <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
-        <img src="linkedin.png" class="linkedin" alt="linkedin logo">
-    </a>
-    <p class="email"> Email: dylanfitzpatrick33@gmail.com</p>
-
+    <div class="header">
+        <img src="headshot.jpg" class = "headshot" alt="headshot">
+        <h1 class="title-name">Dylan Fitzpatrick</h1>
+        <h1 class="title-degree">B.A. Computer Science, Trinity College Dublin</h1>
+        <a href="https://github.com/DylanFitzpatrick01" target="_blank">
+            <img src="github.png" class="github-logo" alt="GitHub logo">
+        </a>
+        <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
+            <img src="linkedin.png" class="linkedin" alt="Linkedin logo">
+        </a>
+        <div class = "email">
+        <a href="mailto:dylanfitzpatrick33@gmail.com" target="_blank"> 
+            <img src="envelope.png" class="email-icon" alt="Link to email">
+            <img src="envelope-open.png" class="email-icon-hover">
+        </a> 
+        </div>
+    </div>
 </header>
+
 <div class="about-me">
     <span class="description">
         My name is Dylan Fitzpatrick. I am 21 years old and am currently in my 3rd year of my undergraduate Computer
-        Science Degree at Trinity College Dublin. I am currently looking for a summer internship between my 3rd and
-        4th years of study. I am very ambitious, hard-working and eager to enter the workforce. Most of my programming
+        Science Degree at Trinity College Dublin. I will join<a href="https://www.irlca.com" target="_blank" class="IRLCA"> IRLCA </a>as a Software Devloper Intern this summer between my 3rd and
+        4th years of study. I am very ambitious. hard-working and eager to enter the workforce. Most of my programming
         experience is in Java, I also have experience in a variety of programming languages such as C, R, Haskell,
-        Prolog, Javascript, Python as well as HTML and CSS. I am currently looking for a summer internship in software
-        engineering.
+        Prolog, Javascript, Python as well as HTML and CSS.
     </span>
 </div>
+
 <h1 class="education">Education</h1>
 <h2>Secondary School</h2>
 <div class="secondary-school">
@@ -44,9 +52,10 @@
         Certificate exams.
     </span>
 </div>
-<h2>University</h2>
+
+<h2 class = "uni-heading">University</h2>
 <div class="college">
-    <a href="https://www.tcd.ie/" target="_blank">
+    <a href="https://teaching.scss.tcd.ie/integrated-computer-science/" target="_blank">
         <img src="trinity.png" class="trinity" alt="Trinity College Dublin">
     </a>
     <span class="about-college">
@@ -55,7 +64,8 @@
         study with First Class Honours (I.I) and aim to achieve the same this year.
         Modules of interest studied are:
         <ul>
-            <li>Introduction to Programming I & II</li>
+            <li>Artificial Intelligence</li>
+            <li>Compiler Design</li>
             <li>Algorithms and Data Structures I & II</li>
             <li>Software Engineering</li>
             <li>Software Engineering Project I & II</li>
@@ -64,14 +74,32 @@
         </ul>
     </span>
 </div>
+
+<h1 class="work-experience">Work Experience</h1>
+<h3>IRLCA - "Software Developer - Intern", June 2023 - August 2023</h3>
+<p>
+    Upcoming internship...
+</p>
+
 <h1 class="projects">Projects</h1>
 <h5>Please click on the title of a project to visit its respective GitHub repository</h5>
+<a href="https://github.com/DylanFitzpatrick01/detect-antipatterns" target="_blank" class= "antipatterns-link">
+    <h3>Using LLVM/Clang to detect concurrency antipatterns in a large C++ codebase</h3>
+</a>
+<div class ="detect-antipatterns">
+    <p>
+        A project as part of the 3rd year in my Computer Science degree. This project was a collaboration of a team of 
+        3rd and 2nd year students, totaling 10 members. I took on a managerial position in this project. The goal of this project is to use Clang
+        APIs to detect common antipatterns within a C++ codebase such as deadlocking etc.  
+    </p>
+</div>
 <a href="https://github.com/AyoKassim/Shutterstock" target="_blank" class="shutterstock-link">
     <h3>Shutterstock Image Rating Project</h3>
 </a>
 <div class="shutterstock-project">
     <p>
-        This was a group project comprised of 6 members including myself. This project allows a user to upload an image to a website in order to rate an image based on various
+        This was a group project comprised of 6 members including myself. This project allows a user to upload an image
+        to a website in order to rate an image based on various
         metrics which our team chose. The metrics used were: brisque score, tags, trend search i.e. the image's
         relevance, reverse image search to show how many similar images exist and the type of the image e.g. clip art,
         photograph etc. The backend was written using ReactJS. My main contribution to the project was the reverse image

@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-image: linear-gradient(to bottom right, lightgray, white, white, lightgray);
+    background-image: linear-gradient(to bottom right,lightgray, white, white, lightgray);
 }
 
 h1{
@@ -55,6 +55,18 @@ img{
     align-items: center;
 }
 
+.header{
+    position: relative;
+}
+
+.headshot{
+    position: relative;
+    float: left;
+    top: 10px;
+    padding-right: 5px;
+    border-radius: 0px;
+}
+
 .title-name{
     color: black;
     margin-top: -5px;
@@ -80,26 +92,55 @@ img{
 }
 
 .linkedin{
+    width: 55px;
     right: 65px;
-    top: 10px;
-    width:55px;
+    top: 7px;
     filter: brightness(0%);
     position: absolute;
 }
 
 .linkedin:hover{
-    font-family: 'Roboto Condensed', sans-serif;
     filter: brightness(30%);
 }
 
-.email{
-    right: 150px;
-    top: 10px;
+.email-icon-hover{
     position: absolute;
+    width: 47px;
+    right: 16px;
+    top:-3px;
+    border-radius: 0%;
+    display: none;
+}
+
+.email{
+    width: 60px;
+    right: 115px;
+    top: 14px;
+    filter: brightness(0%);
+    position:absolute;
+}
+
+.email:hover .email-icon{
+    display: none;
+}
+
+.email:hover .email-icon-hover{
+    display: inline;
+    filter: invert(100%);
+    top:-7px;
 }
 
 .about-me{
     align-items: center;
+}
+
+.IRLCA{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.IRLCA:hover{
+    color: #ff00c0;
 }
 
 .headshot{
@@ -127,13 +168,14 @@ img{
 
 .cbs{
     width: 225px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 
 .about-secondary{
     position: relative;
-    padding-left: 20px;
+    padding-left: 90px;
 }
+
 
 .college{
     align-items: center;
@@ -144,4 +186,8 @@ img{
 .about-college{
     position: relative;
     padding-left: 20px;
+}
+
+.trinity{
+    top:-50px
 }
