@@ -57,26 +57,34 @@ img{
 
 .header{
     position: relative;
+    display: flex;
 }
 
 .headshot{
     position: relative;
     float: left;
     top: 10px;
-    padding-right: 5px;
     border-radius: 0px;
+    white-space: nowrap;
+    border-radius: 20px;
 }
 
 .title-name{
+    position: relative;
     color: black;
-    margin-top: -5px;
     font-family: 'Oswald', sans-serif;
+    top: 25px;
+    left: -325px;
+    white-space: nowrap;
 }
 
 .title-degree{
+    position: relative;
     color: #ff00c0;
     font-family: 'Oswald', sans-serif;
-    margin-top: -30px;
+    left: -579px;
+    top: 75px;
+    white-space: nowrap;
 }
 
 .github-logo{
@@ -131,7 +139,8 @@ img{
 }
 
 .about-me{
-    align-items: center;
+    position: relative;
+    top: 15px;;
 }
 
 .IRLCA{
@@ -144,12 +153,11 @@ img{
 }
 
 .headshot{
-    width: 200px;
-    padding-left: 10px;
+    width: 40%;
 }
 
 .description{
- text-align: center;
+    text-align: justify;
 }
 
 .about{
@@ -168,14 +176,11 @@ img{
 
 .cbs{
     width: 225px;
-    padding-left: 50px;
 }
 
 .about-secondary{
     position: relative;
-    padding-left: 90px;
 }
-
 
 .college{
     align-items: center;
@@ -185,9 +190,12 @@ img{
 
 .about-college{
     position: relative;
-    padding-left: 20px;
 }
 
 .trinity{
     top:-50px
+}
+
+.IRLCA-work:hover{
+    color:black;
 }
