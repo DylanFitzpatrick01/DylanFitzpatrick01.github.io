@@ -76,11 +76,27 @@ img{
     float: left;
 }
 
+.name h1, .name img{
+    display: inline;
+    vertical-align: middle;
+}
+
+.pride{
+    width:5%;
+    border-radius: 0;
+}
+
+.ie{
+    width: 5%;
+    border-radius: 0;
+}
+
 .title-name{
     color: black;
     font-family: 'Oswald', sans-serif;
     white-space: nowrap;
     max-width: 100%;
+    padding-right: 10px;
 }
 
 .title-degree{
