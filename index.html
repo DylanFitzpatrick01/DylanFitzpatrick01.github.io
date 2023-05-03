@@ -1,96 +1,70 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <head>
-        <title>Dylan Fitzpatrick</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap"
-            rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="header">
-                <div>
-                    <img src="/images/headshot.jpg" class = "headshot" alt="headshot">
-                </div>
-                <div class="info">
-                    <div class="name">
-                        <h1 class="title-name">Dylan Fitzpatrick</h1>
-                    </div>
-                    <div>
-                        <h1 class="title-degree">3rd Year BA(Mod) Computer Science, Trinity College Dublin</h1>
-                    </div>
-                    
-            <div class="flags">
-                <img src="/images/pride.png" class="pride" alt="pride flag">
-                <img src = "/images/ie.png" class="ie" alt = "irish flag">
-            </div>
-                </div>
-                <div>    
-                    <a href="https://github.com/DylanFitzpatrick01" target="_blank">
-                        <img src="/images/github.png" class="github-logo" alt="GitHub logo">
-                    </a>
-                </div>
-                <div>    
-                    <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
-                        <img src="/images/linkedin.png" class="linkedin" alt="Linkedin logo">
-                    </a>
-                </div>    
-                <div class = "email">
-                    <a href="mailto:dylanfitzpatrick33@gmail.com" target="_blank"> 
-                        <img src="/images/envelope.png" class="email-icon" alt="Link to email">
-                        <img src="/images/envelope-open.png" class="email-icon-hover">
-                    </a> 
-                </div>
-            </div>
-        </header>
-
-        <div class="about-me">
-            <span class="description">
-                My name is Dylan Fitzpatrick. I am 21 years old and am currently in my 3rd year of my undergraduate Computer
-                Science Degree at Trinity College Dublin. I will join<a href="https://www.irlca.com" target="_blank" class="IRLCA"> IRLCA </a>as a Software Devloper Intern this summer between my 3rd and
-                4th years of study. I am very ambitious, hard-working and eager to enter the workforce. Most of my programming
-                experience is in Java, I also have experience in a variety of programming languages such as C, R, Haskell,
-                Prolog, Javascript, Python as well as HTML and CSS.
-            </span>
+        <img id = "headshot" class ="headshot" src="images/headshot.jpg">
+        <p class = "name">Dylan Fitzpatrick</p>
+        <p class = "college">3rd Year Computer Science, Trinity College Dublin</p>            
+        <div class = "links">
+            <a href = "https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
+                <img id = "linkedin" class = "linkedin" src = "images/linkedin.png"> 
+            </a>
+            <a href = "https://github.com/DylanFitzpatrick01" target="_blank">
+                <img id = "github" class = "github" src = "images/github-mark.png"> 
+            </a>
+            <a href = "mailto:dylanfitzpatrick33@gmail.com" target="_blank">
+                <img id = "email" class = "email" src = "images/email.png"> 
+            </a>
         </div>
-
-        <div>
-            <h1 class="education">Education</h1>
-        </div>
-        <div>   
-            <h2>Secondary School</h2>
-        </div>    
-        <div class="secondary-school">
-            <div>
-                <a href="https://www.naascbs.ie/" target="_blank">
-                    <img class="cbs" src="/images/CBS.png" alt="Naas CBS Crest.">
-                </a>
+        <section class = "description">
+            <div class = "who-am-i">
+                <p class = "who-title">
+                    Who Am I?
+                </p>
+                <p>                
+                    My name is Dylan Fitzpatrick. I am 21 years old and am currently in my 3rd year of my undergraduate Computer
+                    Science Degree at Trinity College Dublin. I will join<a href="https://www.irlca.com" target="_blank" class="IRLCA"> IRLCA </a>
+                    as a Software Devloper Intern this summer between my 3rd and
+                    4th years of study. I am very ambitious, hard-working and eager to enter the workforce. Most of my programming
+                    experience is in Java, I also have experience in a variety of programming languages such as C, R, Haskell,
+                    Prolog, Javascript, Python as well as HTML and CSS.
+                </p>
             </div>
-            <div>    
-                <span class="about-secondary">
+            <div class = "work-experience">
+                <p class = "work-title"> 
+                    Work Experience
+                </p>
+                <p class = "irlca-title">
+                    IRLCA
+                </p>
+                <p>
+                    Upcoming internship begininng 05/06/2023
+                </p>
+            </div>
+            <div class = "my-education">
+                <p class = "education-title">
+                    My Education
+                </p>
+                <p class = "secondary-title">
+                    Secondary School
+                </p>
+                <p>
                     I spent my 6 years of secondary education attending Me&aacute;nscoil Iogn&aacute;id R&iacute;s, otherwise known
                     as Naas CBS, in Naas, County Kildare. The subjects I studied as part of my Leaving Certificate were: Mathematics,
                     English, Irish, German, Physics, Chemistry and Economics, all studied at Higher Level. I graduated in 2020, achieving 566 points in my Leaving
                     Certificate exams.
-                </span>
-            </div>    
-        </div>
-
-        <div>
-            <h2 class = "uni-heading">University</h2>
-        <div>    
-        <div class="college">
-            <div>
-                <a href="https://teaching.scss.tcd.ie/integrated-computer-science/" target="_blank">
-                    <img src="/images/trinity.png" class="trinity" alt="Trinity College Dublin">
-                </a>
-            </div>
-            <div>   
-                <span class="about-college">
+                </p>
+                <p class = "uni-title">
+                    Trinity College Dublin
+                </p>
+                <p>
                     I am currently in my third year of the Integrated Computer Science degree at Trinity College Dublin. I am a
                     member of the Dublin University Computer Science Society (DUCSS). I completed both my first and second year of
                     study with First Class Honours (I.I) and aim to achieve the same this year.
@@ -106,92 +80,93 @@
                             <li>Systems Programming</li>
                         </ul>
                     </div>
-                </span>
-            </div>    
-        </div>
-
-        <div>
-            <h1 class="work-experience">Work Experience</h1>
-        </div>
-        <div>    
-            <h3 class="IRLCA-work">IRLCA - "Software Developer - Intern", June 2023 - August 2023</h3>
-        </div>
-        <div>    
-            <p>
-                Upcoming internship...
-            </p>
-        </div>
-
-        <div>
-            <h1 class="projects">Projects</h1>
-        </div>
-        <div>    
-            <h5>Please click on the title of a project to visit its respective GitHub repository</h5>
-        </div>
-        <div>    
-            <a href="https://github.com/DylanFitzpatrick01/detect-antipatterns" target="_blank" class= "antipatterns-link">
-                <h3>Using LLVM/Clang to detect concurrency antipatterns in a large C++ codebase with Cisco</h3>
-            </a>
-        </div>
-        <div class ="detect-antipatterns">
-            <p>
-                A project as part of the Software Engineering Project II module in the 3rd year of my Computer Science degree. 
-                This project was a collaboration of a team of 3rd and 2nd year students, totaling 10 members. I took on a 
-                managerial position in this project. The goal of this project is to use Clang APIs in Python to detect common 
-                antipatterns within a C++ codebase such as deadlocking etc. and give the user warnings/errors based on the 
-                antipattern(s) found.
-            </p>
-        </div>
-        <div>
-            <a href="https://github.com/AyoKassim/Shutterstock" target="_blank" class="shutterstock-link">
-                <h3>Image Rating Project with Shutterstock</h3>
-            </a>
-        </div>
-        <div class="shutterstock-project">
-            <p>
-                A project as part of the module Software Engineering Project I in the 2nd year of my degree. This was a group project 
-                comprised of 6 members including myself. This project allows a user to upload an image to a website in order to rate 
-                an image based on various metrics which our team chose, using NextJS and NodeJS. The metrics used were: brisque score, 
-                tags, trend search i.e. the image's relevance, reverse image search to show how many similar images exist and the type 
-                of the image e.g. clip art, photograph etc. The backend was written using ReactJS. My main contribution to the project 
-                was implementing the reverse image search metric.
-            </p>
-        </div>
-        <div>
-            <a href="https://github.com/eimearryan/CSU33012-Main-Project" target="_blank">
-                <h3>GitHub Statistics</h3>
-            </a>
-        </div>
-        <div class="github-statistics">
-            <p>
-                A web based project which takes data from Microsoft's open source calculator. Shows the user various graphs
-                displaying contributors statistic e.g. most issues opened/closed. Also allows the user to search for a specific
-                contributor. My contribution to this project was implementing a MySQL database to store the data.
-            </p>
-        </div>
-        <div>
-            <a href="https://github.com/DylanFitzpatrick01/Bus-Management-System" target="_blank">
-                <h3>Vancouver Bus Management System</h3>
-            </a>
-        </div>
-        <div class="bus-management-system">
-            <p>
-                A Java based program which implements Dijkstra's algorithm. This program allows to user to find the shortest
-                route between two bus stops, search stop details by the stop's name and search for a stop based on the arrival time.
-                The data is taken from 3 .txt files.
-            </p>
-        </div>
-        <div>
-            <a href="https://github.com/DylanFitzpatrick01/Space-Invaders-Project-Processing-3" target="_blank">
-                <h3>Space Invaders</h3>
-            </a>
-        </div>
-        <div class="space-invaders">
-            <p>
-                A solo project made in Processing 3 which allows the user to play a game akin to Space Invaders.
-            </p>
-        </div>
+                </p>
+            </div>
+            <div class = "my-projects">
+                <p class = "projects-title">
+                    My Projects
+                </p>
+                <p>
+                    Please click on the title of each project to view its respective GitHub repository.
+                </p>
+                <div class = "antipatterns">
+                    <a href="https://github.com/DylanFitzpatrick01/detect-antipatterns" target="_blank">
+                        <p class = "antipatterns-title">
+                            Using LLVM/Clang to detect concurrency antipatterns in a large C++ codebase with Cisco
+                        </p>
+                    </a>
+                    <p>
+                        A project as part of the Software Engineering Project II module in the 3rd year of my Computer Science degree. 
+                        This project was a collaboration of a team of 3rd and 2nd year students, totaling 10 members. I took on a 
+                        managerial position in this project. The goal of this project is to use Clang APIs in Python to detect common 
+                        antipatterns within a C++ codebase such as deadlocking etc. and give the user warnings/errors based on the 
+                        antipattern(s) found.
+                    </p>
+                </div>
+                <div class = "shutterstock">
+                    <a href="https://github.com/AyoKassim/Shutterstock" target="_blank">
+                        <p class="shutterstock-title">Image Rating Project with Shutterstock</p>
+                    </a>
+                    <p>
+                        A project as part of the module Software Engineering Project I in the 2nd year of my degree. This was a group project 
+                        comprised of 6 members including myself. This project allows a user to upload an image to a website in order to rate 
+                        an image based on various metrics which our team chose, using NextJS and NodeJS. The metrics used were: brisque score, 
+                        tags, trend search i.e. the image's relevance, reverse image search to show how many similar images exist and the type 
+                        of the image e.g. clip art, photograph etc. The backend was written using ReactJS. My main contribution to the project 
+                        was implementing the reverse image search metric.
+                    </p>
+                </div>
+                <div class = "GitHub Statistics">
+                    <a href="https://github.com/eimearryan/CSU33012-Main-Project" target="_blank">
+                        <p class = "github-stats-title">GitHub Statistics</p>
+                    </a>
+                    <p>
+                        A web based project which takes data from Microsoft's open source calculator. Shows the user various graphs
+                        displaying contributors statistic e.g. most issues opened/closed. Also allows the user to search for a specific
+                        contributor. My contribution to this project was implementing a MySQL database to store the data.
+                    </p>
+                </div>
+                <div class = "bus-management-system">
+                    <a href="https://github.com/DylanFitzpatrick01/Bus-Management-System" target="_blank">
+                        <p  class = "bus-title">Vancouver Bus Management System</p>
+                    </a>
+                </div>
+                <p>
+                    A Java based program which implements Dijkstra's algorithm. This program allows to user to find the shortest
+                    route between two bus stops, search stop details by the stop's name and search for a stop based on the arrival time.
+                    The data is taken from 3 .txt files.
+                </p>
+                <div class = "space-invaders">
+                    <a href="https://github.com/DylanFitzpatrick01/Space-Invaders-Project-Processing-3" target="_blank">
+                        <p class = "space-invaders-title">Space Invaders</p>
+                    </a>
+                    <p>
+                        A solo project made in Processing 3 which allows the user to play a game akin to Space Invaders.
+                    </p>
+                </div>
+            </div>
+            <div class = "contact-me">
+                <p class = "contact-title">
+                    Contact Me/Important Links
+                </p>
+                <div class = "contact-links">
+                    <a href = "mailto:dylanfitzpatrick33@gmail.com" target="_blank">
+                        <p>
+                            Email
+                        </p>
+                    </a>
+                    <a href = "https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
+                        <p>
+                            Linkedin
+                        </p>
+                    </a>
+                    <a href = "https://github.com/DylanFitzpatrick01" target="_blank">
+                        <p>
+                            GitHub
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
     </body>
-    <footer>
-    </footer>
 </html>
