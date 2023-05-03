@@ -142,19 +142,64 @@ body,.headshot{
     color: rgb(0, 210, 234);
 }
 
+/* Style the button that is used to open and close the collapsible content */
+.antipatterns-collapsible,
+.shutterstock-collapsible,
+.github-stats-collapsible,
+.bus-collapsible,
+.space-invaders-collapsible,
+.web-calculator-collapsible,
+.file-retrieval-protocol-collapsible,
+.flow-forwarding-collapsible{
+    background-color: rgb(68, 68, 68);
+    color: rgb(0, 210, 234);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 100%;
+    border: rgb(7, 34, 44);
+    text-align: left;  
+}
+  
+.active, 
+.antipatterns-collapsible:hover,
+.shutterstock-collapsible:hover,
+.github-stats-collapsible:hover,
+.bus-collapsible:hover,
+.space-invaders-collapsible:hover,
+.web-calculator-collapsible:hover,
+.file-retrieval-protocol-collapsible:hover,
+.flow-forwarding-collapsible:hover{
+    background-color: rgb(102, 96, 96);
+}
+  
+.antipatterns, 
+.shutterstock,
+.github-stats,
+.bus-management-system,
+.space-invaders,
+.web-calculator,
+.file-retrieval-protocol,
+.flow-forwarding{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding-bottom: 10px;
+}
+
 .antipatterns-title,
 .shutterstock-title,
 .github-stats-title,
 .bus-title,
-.space-invaders-title{
+.space-invaders-title,
+.web-calculator-title,
+.file-retrieval-protocol-title,
+.flow-forwarding-title{
     font-size: 20px;
     text-decoration: underline;
     color: rgb(0, 210, 234);
     margin: 0;
     display: inline;
-}
-
-.IRLCA{
-    color: rgb(25, 185, 221);
-    text-decoration: none;
 }
