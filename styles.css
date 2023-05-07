@@ -51,7 +51,7 @@ body,.headshot{
 
 .name{
     position: relative;
-    top: 450px;
+    top: 64vh;
     align-items: center;
     color: rgb(0, 255, 255);
     font-family: 'Roboto Mono', monospace;
@@ -63,7 +63,7 @@ body,.headshot{
 
 .college{
     position: relative;
-    top: 420px;
+    top: 60vh;
     align-items: center;
     color: rgb(0, 210, 234);
     font-family: 'Roboto Mono', monospace;
@@ -75,7 +75,7 @@ body,.headshot{
 
 .links{
     position: relative;
-    top:400px;
+    top:58vh;
     padding: 5px;
 }
 
@@ -142,7 +142,6 @@ body,.headshot{
     color: rgb(0, 210, 234);
 }
 
-/* Style the button that is used to open and close the collapsible content */
 .antipatterns-collapsible,
 .shutterstock-collapsible,
 .github-stats-collapsible,
