@@ -9,12 +9,12 @@ export default function Page() {
             </div>
             <div>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">Final Year Project</h2>
-                <p className="px-20 pb-10 break-words">My Final Year Project was entitled "The Influence of Video and Audio Quality in Emotion Detection" and I was supervised by Professor Khurshid Ahmad.
+                <p className="px-20 pb-10 break-words">My Final Year Project was entitled &quot;The Influence of Video and Audio Quality in Emotion Detection&quot; and I was supervised by Professor Khurshid Ahmad.
                     The goal of this project was to take datasets of visual/audio emotion expression, run them through various emotion recognition softwares and see how the results are affected based
                     on the quality of the media.
                     To do this I wrote several scripts in Python to perform actions on the .csv files that the emotion scores were outputted to. I then used a variety of statistical tests to determine the effects
                     of quality degradation in emotion recognition.
-                    The statistical tests used were Cohen's Kappa, Spearman's Rank Ordered Correlation Coefficient and the Kruskal-Wallis Test.
+                    The statistical tests used were Cohen&apos;s Kappa, Spearman&apos;s Rank Ordered Correlation Coefficient and the Kruskal-Wallis Test.
                 </p>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">DANCE - Detecting ANtipatterns in a C++ Environment</h2>
                 <p className="px-20 pb-10 break-words"> A project as part of the Software Engineering Project II module in the 3rd year of my Computer Science degree.
@@ -30,7 +30,7 @@ export default function Page() {
                 <p className="px-20 pb-10 break-words"> A project as part of the module Software Engineering Project I in the 2nd year of my degree. This was a group project 
                         comprised of 6 members including myself. This project allows a user to upload an image to a website in order to rate 
                         an image based on various metrics which our team chose, using NextJS and NodeJS. The metrics used were: brisque score, 
-                        tags, trend search i.e. the image's relevance, reverse image search to show how many similar images exist and the type 
+                        tags, trend search i.e. the image&apos;s relevance, reverse image search to show how many similar images exist and the type 
                         of the image e.g. clip art, photograph etc. The backend was written using ReactJS. My main contribution to the project 
                         was implementing the reverse image search metric.
                     <a href="https://github.com/AyoKassim/Shutterstock" target="_blank" className="hover:text-gray-500 flex text-emerald-400 pt-2">
@@ -38,7 +38,7 @@ export default function Page() {
                     </a>
                 </p>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">GitHub Statistics</h2>
-                <p className="px-20 pb-10 break-words">A web based project which takes data from Microsoft's open source calculator. Shows the user various graphs
+                <p className="px-20 pb-10 break-words">A web based project which takes data from Microsoft&apos;s open source calculator. Shows the user various graphs
                         displaying contributors statistic e.g. most issues opened/closed. Also allows the user to search for a specific
                         contributor. My contribution to this project was implementing a MySQL database to store the data.
                     <a href="https://github.com/eimearryan/CSU33012-Main-Project" target="_blank" className="hover:text-gray-500 flex text-emerald-400 pt-2">
@@ -46,8 +46,8 @@ export default function Page() {
                     </a>
                 </p>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">Vancouver Bus Management System</h2>
-                <p className="px-20 pb-10 break-words"> A Java based program which implements Dijkstra's algorithm. This program allows to user to find the shortest
-                        route between two bus stops, search stop details by the stop's name and search for a stop based on the arrival time.
+                <p className="px-20 pb-10 break-words"> A Java based program which implements Dijkstra&apos;s algorithm. This program allows to user to find the shortest
+                        route between two bus stops, search stop details by the stop&apos;s name and search for a stop based on the arrival time.
                         The data is taken from 3 .txt files.
                     <a href="https://github.com/DylanFitzpatrick01/Bus-Management-System" target="_blank" className="hover:text-gray-500 flex text-emerald-400 pt-2">
                         Github Repository
