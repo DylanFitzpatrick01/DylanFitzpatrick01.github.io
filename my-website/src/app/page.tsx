@@ -37,34 +37,38 @@ export default function Home() {
         </Link>
       </div>
       <div className="flex justify-center text-xl pt-10 space-x-2">
-        <p className="hover:text-gray-500">
+        <p>
           Email: dylanfitzpatrick33@gmail.com
         </p>
+        <p> | </p>
+        <div className="hover:text-gray-500 flex gap-2">
+          <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
+            LinkedIn
+          </a>
+          <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
+            <Image
+              className="hover:brightness-20"
+              src={linkedin}
+              width={30}
+              height={30}
+              alt="LinkedIn Logo"
+            />
+          </a>
+        </div>
         <p>|</p>
-        <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank" className="hover:text-gray-500 flex">
-          LinkedIn
-        </a>
-        <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank" className="flex filter hover:brightness-50">
-          <Image
-            className="hover:brightness-20"
-            src={linkedin}
-            width={30}
-            height={30}
-            alt="LinkedIn Logo"
-          />
-        </a>
-        <p>|</p>
-        <a href="https://www.github.com/DylanFitzpatrick01/" target="_blank" className="flex filter hover:brightness-50">
-          GitHub
-        </a>
-        <a href="https://www.github.com/DylanFitzpatrick01/" target="_blank">
-        <Image
-            src={github}
-            width={30}
-            height={30}
-            alt="LinkedIn Logo"
-          />
-        </a>
+        <div className="hover:text-gray-500 flex gap-2">
+          <a href="https://www.github.com/DylanFitzpatrick01/" target="_blank">
+            GitHub
+          </a>
+          <a href="https://www.github.com/DylanFitzpatrick01/" target="_blank">
+            <Image
+              src={github}
+              width={30}
+              height={30}
+              alt="LinkedIn Logo"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
