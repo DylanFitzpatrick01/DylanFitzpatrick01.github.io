@@ -4,6 +4,11 @@ import headshot from './images/headshot.png';
 import linkedin from './images/linkedin.png'
 import github from './images/github-mark.png'
 
+export const metadata = {
+  title: "Dylan Fitzpatrick",
+  description: "Portfolio Homepage",
+}
+
 export default function Home() {
   return (
     <div>
@@ -37,10 +42,10 @@ export default function Home() {
         </Link>
       </div>
       <div className="flex justify-center text-xl pt-10 space-x-2">
-        <p>
+        <div>
           Email: dylanfitzpatrick33@gmail.com
-        </p>
-        <p> | </p>
+        </div>
+        <div> | </div>
         <div className="hover:text-gray-500 flex gap-2">
           <a href="https://www.linkedin.com/in/dylanfitzpatrick01/" target="_blank">
             LinkedIn
@@ -55,7 +60,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <p>|</p>
+        <div>|</div>
         <div className="hover:text-gray-500 flex gap-2">
           <a href="https://www.github.com/DylanFitzpatrick01/" target="_blank">
             GitHub
