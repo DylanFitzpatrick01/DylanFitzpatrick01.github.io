@@ -42,7 +42,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center py-10">
+            <div className="flex justify-center py-10 gap-6">
                 <Image
                     src={graduate}
                     width={600}
@@ -53,7 +53,7 @@ export default function Page() {
                     src={graduate2}
                     width={500}
                     height={500}
-                    alt="Graduation Photo"
+                    alt="Graduation Photo 2"
                 />    
             </div>
         </div>
