@@ -21,7 +21,7 @@ export default function Page() {
                     To do this I wrote several scripts in Python to perform actions on the .csv files that the emotion scores were outputted to. I then used a variety of statistical tests to determine the effects
                     of quality degradation in emotion recognition.
                     The statistical tests used were Cohen&apos;s Kappa, Spearman&apos;s Rank Ordered Correlation Coefficient and the Kruskal-Wallis Test.
-                    <Link className = "hover:text-gray-500 flex text-emerald-400 pt-2" href='/Final_Year_Project.pdf'  target="_blank"  rel="noopener noreferrer" download>Click here to download</Link>
+                    <Link className = "hover:text-gray-500 flex text-emerald-400 pt-2" href='/Final_Year_Project.pdf'  target="_blank"  rel="noopener noreferrer" download>Click here to download and read report</Link>
                 </div>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">DANCE - Detecting ANtipatterns in a C++ Environment</h2>
                 <div className="px-20 pb-10 break-words"> A project as part of the Software Engineering Project II module in the 3rd year of my Computer Science degree.
@@ -86,6 +86,12 @@ export default function Page() {
                     <a href="https://github.com/DylanFitzpatrick01/File-Retrieval-Protocol" target="_blank" className="hover:text-gray-500 flex text-emerald-400 pt-2">
                         Github Repository
                     </a>
+                    <Link className = "hover:text-gray-500 flex text-emerald-400 pt-2" href='/FileRetrieval.pdf'  target="_blank"  rel="noopener noreferrer" download>Click here to download and read report</Link>
+                    <div className="flex text-2xl pt-6 pb-2 font-bold">Demo</div>
+                    <video className="h-full w-full rounded-lg" controls>
+                        <source src="/FileRetrieval.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <h2 className="flex text-2xl pt-6 pb-2 items-center justify-center font-bold">Flow Forwarding</h2>
                 <div className="px-20 pb-10 break-words"> The second assignment in my Computer Networks module in 3rd year. The aim of this assignment was to implement forward flows of packets.
